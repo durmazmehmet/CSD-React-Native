@@ -1,0 +1,34 @@
+sudo -i #mac ve linux için gerekebilir
+
+npm install @react-navigation/native
+npm install react-native-gesture-handler
+npm install react-native-reanimated
+npm install react-native-screens
+npm install react-native-safe-area-context
+npm install @react-native-community/masked-view
+npm install @react-navigation/stack
+npm install @react-navigation/bottom-tabs
+
+
+npm install @react-navigation/material-bottom-tabs react-native-paper
+
+
+
+npm install @react-native-async-storage/async-storage
+
+
+
+#Realm
+
+# Dikkat expo realm desteklemez react-native ile geliştirmeniz gerekir
+
+npm install realm 
+#mac veya root hakkına sahip olmayan linux sürümleri için yarn ya da npm için
+sudo yarn install realm
+veya
+sudo npm install realm
+
+#Eğer global düzeyde yüklemek isterseniz --save seçeneğini veya -g seçeneğini kullanabilirsiniz
+
+
+
